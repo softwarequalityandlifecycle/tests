@@ -1,4 +1,4 @@
-package at.fhv.cicd.tests;
+package at.fhv.issdistance;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
