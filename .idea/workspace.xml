@@ -24,6 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="feature" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
           <entry key="py" value="1" />
@@ -32,6 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Cucumber" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -41,15 +43,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="73" />
-          <entry key="txt" value="39" />
+          <entry key="java" value="77" />
+          <entry key="txt" value="54" />
           <entry key="xml" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="73" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="JAVA" value="77" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="XML" value="95" />
         </counts>
       </usages-collector>
@@ -70,11 +72,20 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/at/fhv/issdistance/ISSDistanceSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+              <caret line="80" column="98" selection-start-line="80" selection-start-column="89" selection-end-line="80" selection-end-column="98" />
               <folding>
                 <element signature="e#1643#1644#0" expanded="true" />
                 <element signature="e#1663#1664#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/at/fhv/issdistance/automated_uat.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="20" selection-start-line="8" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -207,6 +218,19 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="issdistance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549447554291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549447644512" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/issapplication/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -246,7 +270,7 @@
       <option name="presentableId" value="Default" />
       <updated>1549379479109</updated>
       <workItem from="1549379482584" duration="3486000" />
-      <workItem from="1549407662517" duration="4581000" />
+      <workItem from="1549407662517" duration="5481000" />
     </task>
     <task id="LOCAL-00001" summary="changed name">
       <created>1549381017961</created>
@@ -269,17 +293,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549446976248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed test">
+      <created>1549447637399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549447637399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8067000" />
+    <option name="totallyTimeSpent" value="8967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-335" y="-2167" width="3008" height="1742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25169608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25169608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,7 +324,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.5651289" visible="true" weight="0.5077688" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5651289" visible="true" weight="0.5077688" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4348711" side_tool="true" visible="true" weight="0.5077688" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -319,7 +350,8 @@
     <MESSAGE value="changed name" />
     <MESSAGE value="changed version" />
     <MESSAGE value="added run file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added run file" />
+    <MESSAGE value="changed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/get_testingbot_video.py">
@@ -339,6 +371,13 @@
     <entry file="file://$PROJECT_DIR$/tests.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/at/fhv/issdistance/automated_uat.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/at/fhv/issdistance/RunISSDistanceStepsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -352,7 +391,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/at/fhv/issdistance/ISSDistanceSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+          <caret line="80" column="98" selection-start-line="80" selection-start-column="89" selection-end-line="80" selection-end-column="98" />
           <folding>
             <element signature="e#1643#1644#0" expanded="true" />
             <element signature="e#1663#1664#0" expanded="true" />

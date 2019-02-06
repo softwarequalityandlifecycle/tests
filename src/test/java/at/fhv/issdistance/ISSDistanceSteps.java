@@ -77,12 +77,9 @@ public class ISSDistanceSteps {
 	@When("^I press logout$")
 	public void logout() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		//WebElement logoutLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutLink")));
-		//logoutLink.click();
-
 		// wait until popup is visible
-		//WebElement logoutBtn = wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutBtn")));
-		//logoutBtn.click();
+		WebElement logoutBtn = wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutBtn")));
+		logoutBtn.click();
 	}
 
 	@Then("^I see the login page$")
