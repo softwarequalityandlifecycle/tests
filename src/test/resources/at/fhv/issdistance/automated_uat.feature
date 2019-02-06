@@ -10,6 +10,5 @@ Feature: Automated User Acceptance Tests for the ISS Distance Finder
 
   Scenario: Test refresh
     Given Login with user 'testUser'
-    When Click on Refresh
-    Then Lat/Lng changed
+    Then Click on Refresh
     And I press logout

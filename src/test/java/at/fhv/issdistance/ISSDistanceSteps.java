@@ -68,7 +68,7 @@ public class ISSDistanceSteps {
 		driver.findElement(By.id("loginBtn")).click();
 	}
 
-	@When("^Click on Refresh'$")
+	@When("^Click on Refresh$")
 	public void analyzeText() {
 		WebElement button = driver.findElement(By.id("analyzeBtn"));
 		button.click();
