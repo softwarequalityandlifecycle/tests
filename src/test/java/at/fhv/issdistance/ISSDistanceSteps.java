@@ -41,7 +41,7 @@ public class ISSDistanceSteps {
 		}
 
 		driver = new RemoteWebDriver(
-				new URL("http://" + System.getenv("TESTINGBOT_CREDENTIALS") + "@hub.testingbot.com/wd/hub"),
+				new URL("http://0b081d953efe9c8eb29108f04e696332:cb6c37b5609337c63cf8242c4d8aac39@hub.testingbot.com/wd/hub"),
 				capabilities);
 
 		// prevent errors if we start from a sleeping heroku instance
@@ -77,8 +77,8 @@ public class ISSDistanceSteps {
 	@When("^I press logout$")
 	public void logout() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement logoutLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutLink")));
-		logoutLink.click();
+		//WebElement logoutLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutLink")));
+		//logoutLink.click();
 
 		// wait until popup is visible
 		WebElement logoutBtn = wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutBtn")));
