@@ -41,7 +41,7 @@ public class ISSDistanceSteps {
 		}
 
 		driver = new RemoteWebDriver(
-				new URL("http://0b081d953efe9c8eb29108f04e696332:cb6c37b5609337c63cf8242c4d8aac39@hub.testingbot.com/wd/hub"),
+				new URL("http://" + System.getenv("TESTINGBOT_CREDENTIALS") + "@hub.testingbot.com/wd/hub"),
 				capabilities);
 
 		// prevent errors if we start from a sleeping heroku instance
